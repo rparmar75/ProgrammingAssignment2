@@ -15,7 +15,7 @@
 
 makeCacheMatrix <- function(x = matrix()) {
 
-    inverse <- NULL
+    inverse <<- NULL
     
     # Good to have the following "set" function corresponding to "get". However,
     # this function is not needed really for this assignent as cacheSolve 
