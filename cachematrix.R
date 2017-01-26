@@ -24,7 +24,7 @@ makeCacheMatrix <- function(x = matrix()) {
     # the new matrix passed as the arument.
     
     set <- function(y) {
-        x <- y
+        x <<- y
         inverse <<- NULL
     }
     
